@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谭润州的家教简历</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            color: #333;
+            transition: all 0.3s ease-in-out;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease-in-out;
+            z-index: 1000;
+        }
+        header:hover {
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .container:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .section {
+            margin: 20px 0;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+            transition: color 0.3s;
+        }
+        h1:hover, h2:hover {
+            color: #2575fc;
+        }
+        .photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s;
+        }
+        .photo:hover {
+            transform: scale(1.1);
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skills div, .projects div {
+            flex: 1 1 30%;
+            margin: 10px;
+            padding: 20px;
+            background: #f9f9f9;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 8px;
+        }
+        .skills div:hover, .projects div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .download-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .download-button:hover {
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+            transform: scale(1.05);
+        }
+        .personal-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: left;
+        }
+        .personal-info div {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 10px;
+            background: #f0f0f0;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .personal-info div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .personal-info p {
+            margin: 5px 0;
+        }
+        .contact-item {
+            transition: transform 0.3s, color 0.3s;
+        }
+        .contact-item:hover {
+            transform: scale(1.05);
+            color: #2575fc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>谭润州的家教简历</h1>
+        <p>数学与物理家教 | 教学经验丰富 | 专注提升成绩</p>
+    </header>
+    <nav>
+        <a href="#about">关于我</a>
+        <a href="#personal-info">个人信息</a>
+        <a href="#teaching-experience">家教经验</a>
+        <a href="#skills">擅长科目</a>
+        <a href="#contact">联系</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>关于我</h2>
+            <p>我是谭润州，拥有丰富的数学和物理辅导经验，擅长帮助学生在这两门学科上取得显著进步。凭借扎实的理论基础和因材施教的教学方式，我曾成功帮助多位学生提高成绩。</p>
+        </div>
+        <div id="personal-info" class="section">
+            <h2>个人信息</h2>
+            <div class="personal-info">
+                <div>
+                    <p><strong>性别：</strong>男</p>
+                    <p><strong>年龄：</strong>18</p>
+                </div>
+                <div>
+                    <p><strong>户籍：</strong>湖南</p>
+                    <p><strong>现所在地：</strong>广东湛江</p>
+                </div>
+            </div>
+        </div>
+        <div id="teaching-experience" class="section">
+            <h2>家教经验</h2>
+            <ul class="timeline">
+                <li class="timeline-item left">
+                    <h3>高一数学辅导经验</h3>
+                    <p>2024年1月至2024年5月，成功辅导一名高一学生将数学成绩从40分提升到80分。通过巩固基础、提供定制化习题，逐步提高学生的解题能力。</p>
+                </li>
+                <li class="timeline-item right">
+                    <h3>高二数学辅导经验</h3>
+                    <p>2024年2月至2025年5月，辅导一名高二学生将数学成绩从60分提升到85分。重点解决复杂题型的解题思路问题，并通过模拟练习提升应试能力。</p>
+                </li>
+            </ul>
+        </div>
+        <div id="skills" class="section">
+            <h2>擅长科目</h2>
+            <div class="skills">
+                <div>
+                    <h3>数学</h3>
+                    <p>扎实的基础、强大的逻辑思维能力，耐心且因材施教，能够帮助学生从基础到高阶全面提升数学能力。</p>
+                </div>
+                <div>
+                    <h3>物理</h3>
+                    <p>深厚的理论基础与问题解决能力，擅长通过生活实例解释物理概念，帮助学生理解并应用公式。</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <h2>联系</h2>
+            <p>可以通过以下方式联系我：</p>
+            <ul>
+                <li class="contact-item">电子邮件：trz13703027981@qq.com</li>
+                <li class="contact-item">电话：+86 15815928725</li>
+                <li class="contact-item">bilibili：<a href="https://space.bilibili.com/283804782" target="_blank">space.bilibili.com/283804782</a></li>
+            </ul>
+        </div>
+        <!-- Add the download button at the bottom -->
+        <a href="https://pan.baidu.com/s/1sCMpc6-X3ZLfUNSp9v7aiQ?pwd=c9q0" download class="download-button">下载我的简历</a>
+    </div>
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
